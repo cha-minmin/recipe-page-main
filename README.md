@@ -25,8 +25,8 @@ The challenge is to create a recipe landing page.
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](fem-recipelandingpage.netlify.app)
+- Solution URL: [Solution URL](https://github.com/cha-minmin/recipe-page-main)
+- Live Site URL: [Live site URL](fem-recipelandingpage.netlify.app)
 
 ## My process
 
