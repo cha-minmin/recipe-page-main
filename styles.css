@@ -147,7 +147,19 @@ td {
   font-weight: bold;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 @media (max-width: 768px) {
+  body {
+    background: var(--white);
+  }
+
   .recipe-page {
     margin: 0 auto;
     border-radius: 0;
