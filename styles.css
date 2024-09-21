@@ -44,9 +44,15 @@ body {
   margin: 128px auto;
 }
 
-.recipe-image img {
+.recipe-image {
+  height: 300px;
   margin-bottom: 40px;
+
+}
+
+.recipe-image img {
   border-radius: 12px;
+  
 }
 
 .recipe-text {
@@ -60,6 +66,8 @@ body {
   color: var(--brown-800);
   margin-bottom: 24px;
   font-size: var(--h2-size);
+  font-weight: lighter;
+  line-height: 1;
 }
 
 .introduction .heading {
@@ -90,6 +98,10 @@ body {
 
 .list-subtitle {
   font-weight: bold;
+}
+
+li {
+  margin-bottom: 8px;
 }
 
 ul {
