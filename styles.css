@@ -47,12 +47,10 @@ body {
 .recipe-image {
   height: 300px;
   margin-bottom: 40px;
-
 }
 
 .recipe-image img {
   border-radius: 12px;
-  
 }
 
 .recipe-text {
@@ -144,9 +142,17 @@ ol > li::marker {
   border-collapse: collapse;
 }
 
-td {
-  padding: 12px 0 12px 32px;
+.nutrition-item {
+  padding: 12px 8px 12px 32px;
   border-bottom: 1px solid var(--stone-150);
+  width: 50%;
+}
+
+.nutrition-detail {
+  padding: 12px 32px 12px 8px;
+  border-bottom: 1px solid var(--stone-150);
+  color: var(--brown-800);
+  font-weight: bold;
 }
 
 .top-cell {
@@ -156,12 +162,6 @@ td {
 .bottom-cell {
   padding-bottom: 0;
   border: none;
-}
-
-.nutrition-detail {
-  color: var(--brown-800);
-  font-weight: bold;
-  padding-left: 16px;
 }
 
 .attribution {
